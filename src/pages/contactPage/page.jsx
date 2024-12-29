@@ -19,7 +19,7 @@ const ContactPage = () => {
                     </div>
                     <div className="mb-4">
                         <label htmlFor="email" className="block text-gray-700 font-medium mb-2">
-                            E-posta Adresi
+                            E-posta
                         </label>
                         <input
                             type="email"
@@ -41,7 +41,7 @@ const ContactPage = () => {
                     </div>
                     <button
                         type="submit"
-                        className="w-full bg-gray-600 text-white py-2 rounded-lg hover:bg-black transition duration-200"
+                        className="w-full bg-green-600 text-white py-2 rounded-lg hover:bg-black transition duration-200"
                     >
                         Gönder
                     </button>
