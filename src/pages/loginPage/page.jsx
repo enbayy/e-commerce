@@ -8,7 +8,7 @@ const LoginPage = () => {
                 <h2 className="text-2xl font-bold text-center mb-6 text-gray-700">Giriş Yap</h2>
                 <div className="mb-4">
                     <label htmlFor="email" className="block text-gray-700 font-medium mb-2">
-                        E-posta Adresi
+                        E-posta
                     </label>
                     <input
                         type="email"
@@ -28,12 +28,14 @@ const LoginPage = () => {
                         className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
                     />
                 </div>
-                <button
-                    type="submit"
-                    className="w-full bg-gray-600 text-white py-2 rounded-lg hover:bg-black transition duration-200"
-                >
-                    Giriş Yap
-                </button>
+                <div className="flex justify-center">
+                    <button
+                        type="submit"
+                        className="bg-green-600 text-white py-2 px-4 rounded-lg hover:bg-black transition duration-200"
+                    >
+                        Giriş Yap
+                    </button>
+                </div>
                 <p className="text-center mt-4 text-sm text-gray-600">
                     Hesabınız yok mu? <Link to="/registerPage" className="text-blue-500 hover:underline">Kayıt Ol</Link>
                 </p>
