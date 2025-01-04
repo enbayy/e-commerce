@@ -28,10 +28,10 @@ const LoginPage = () => {
                         className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
                     />
                 </div>
-                <div className="flex justify-center">
+                <div className="flex justify-center w-full">
                     <button
                         type="submit"
-                        className="bg-green-600 text-white py-2 px-4 rounded-lg hover:bg-black transition duration-200"
+                        className="flex justify-center w-1/2 bg-green-600 text-white py-2 px-4 rounded-lg hover:bg-black transition duration-200"
                     >
                         Giriş Yap
                     </button>

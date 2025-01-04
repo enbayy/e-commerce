@@ -39,12 +39,14 @@ const ContactPage = () => {
                             className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
                         ></textarea>
                     </div>
-                    <button
-                        type="submit"
-                        className="w-full bg-green-600 text-white py-2 rounded-lg hover:bg-black transition duration-200"
-                    >
-                        Gönder
-                    </button>
+                    <div className="flex justify-center w-full">
+                        <button
+                            type="submit"
+                            className="flex justify-center w-1/2 bg-green-600 text-white py-2 rounded-lg hover:bg-black transition duration-200"
+                        >
+                            Gönder
+                        </button>
+                    </div>
                 </form>
             </div>
         </div>
