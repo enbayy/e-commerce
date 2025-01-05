@@ -10,9 +10,6 @@ const Navbar = () => {
                         <Link to='/'>Anasayfa</Link>
                     </li>
                     <li>
-                        <Link to='/categoryPage'>Kategoriler</Link>
-                    </li>
-                    <li>
                         <Link to='/favoritePage'>Favoriler</Link>
                     </li>
                     <li>
